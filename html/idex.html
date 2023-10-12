@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-<!--le codage de notre site web-->
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- <script src="/js/java.js"></script> -->
+        <!--le codage de notre site web-->
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="shortcut icon" href="/image/logo.jpg" type="image/jpg">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <!-- <script src="/js/java.js"></script> -->
    
-<!--le nom de mon site web-->
-    <title>mon site web</title>
+        <!--le nom de mon site web-->
+        <title>mon site web</title>
     </head>
-<!--le corps de ma page web-->
+    <!--le corps de ma page web-->
     <body>
-<!--le header l'entete de ma page-->
+     <!--le header l'entete de ma page-->
     <header class="mainheader">
-        <div>
-            <h1 class="logo"><STRONG>YANAISE.LIVE</STRONG></h1>
-        </div>
-        <nav>
+        <img src="/image/logo.jpg" alt="logo de mon site" class="logo">
+        <nav class="navigation">
             <ul>
                 <li><a href="#">ACCUEIL</a></li>
                 <li><a href="#">À PROPOS</a></li>
@@ -29,6 +29,9 @@
     </header>
     <!--le main represente le corps principale de ma page-->
     <main class="corps-principal">
+        <div>
+            <h1 class="logo"><STRONG>YANAISE.LIVE</STRONG></h1>
+        </div>
         <div>
             <h2><strong><i>je me presente DIOMANDE YAYA</i></strong></h2>
             <p class="presentation"><i>Etudiant a gomycode en full stack JS<br>
@@ -95,7 +98,7 @@
     <footer>
        
         <section>
-            <H2 style="color: blue;">BESOIN D'AIDE</H2>
+            <H2 style="color: blue;" class="besoin">BESOIN D'AIDE</H2>
             <form  class="assiste">
                 <label>ASSISTANCE:</label><br>
                 <textarea name="message" cols="30" rows="3">
@@ -104,20 +107,27 @@
             </form>
         </section>
         <section>
-            <h3 style="color: blue;">VOS AVIS</h3>
+            <h3 style="color: blue;" class="avis">VOS AVIS</h3><br>
             <form class="formme">
-                <label>RECOMMANDATION:</label>
+                <label>RECOMMANDATION:</label><br>
                 <textarea name="message" cols="30" rows="3">
                 </textarea>
                 <button>envoyer</button>
             </form>
             <form class="formmme">
-                <label>COMMENTAIRE:</label>
+                <label>COMMENTAIRE:</label><br>
                 <textarea name="message" cols="30" rows="3">
                 </textarea>
                 <button>envoyer</button>
             </form>
         </section>
+        <div>
+            <p class="nc">Nous contactez:</p>
+            <adress>
+                <a href="mailto:yayadiomande333@gmail.com">yayadiomande333@gmail.com</a><br>
+                <a href="tel:+2250768482189">(+225 07-68-48-21-89)</a>
+            </adress>
+        </div>
     </footer>
    
     </body>

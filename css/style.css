@@ -4,44 +4,47 @@
     box-sizing: border-box;
 }
 .logo{
-    text-align: center;
-}
-body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+  width: 150px;
+  height: 80px;
 }
 .mainheader{
-    background-color:rgb(34, 27, 227);
-    font-size:medium;
-    color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
 }
-nav {
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    padding: 50;
-    
-  }
-  nav ul {
+
+.navigation{
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+}
+  .navigation ul {
     display: flex;
     flex: 1 1 40rem;
-    justify-content:space-evenly;
-    align-items:center;
+    justify-content: space-evenly;
+    align-items: center;
+   
   }
   li {
     list-style: none;
   }
   a {
-    font-size: 1em;
+    
+    font-size: 1rem;
     text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 10px;
   }
   a:hover {
     background-color: red;
   }
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
   .corps-principal{
-    background-color:cornflowerblue;
+    background-color:rgb(237, 178, 100);
   }
   .presentation{
     text-align: center;
@@ -63,7 +66,7 @@ flex: content;
   }
   table,th,td{
     border: 15px solid;
-    color:indigo;
+    color:rgb(130, 0, 0);
     text-align: center;
     width:100px;
     padding:40px;
@@ -71,14 +74,20 @@ flex: content;
     
   }
   footer{
-    background-color: blue;
+    background-color:rgb(237, 178, 100);
   }
   .formme{
-    text-align:left;
+    text-align:end;
   }
   .formmme{
     text-align: end;
   }
-  .assiste{
-    text-align: center;
+  .avis{
+    text-align:end;
   }
+ .besoin{
+  text-align: left;
+ }
+ .nc{
+  text-align: left;
+ }
